@@ -1,5 +1,5 @@
 # node-todo-cicd
-CI/CD Pipeline with Jenkins and Docker on AWS
+# CI/CD Pipeline with Jenkins and Docker on AWS
 This project provides a complete example of a CI/CD pipeline for a web application using Jenkins and Docker on Amazon Web Services (AWS).
 
 Prerequisites
@@ -49,6 +49,9 @@ You can monitor the pipeline's progress in the Jenkins console, and view the dep
 
 **Troubleshooting**
 If you encounter any issues during setup or deployment, check the Jenkins console for error messages, and consult the official documentation for the tools and technologies used in the project.
+![Screenshot (29)](https://user-images.githubusercontent.com/73735284/232285371-6a6c6d31-fdb9-4867-bf74-2f137c81beb3.png)
+![Screenshot (30)](https://user-images.githubusercontent.com/73735284/232285401-693a39ff-d2ee-4d70-![Screenshot (31)](https://user-images.githubusercontent.com/73735284/232285417-5c39928b-fc8a-455d-81e2-4df9a2f1f534.png)
+884e-bd046c4b2bf9.png)
 
 **Future Improvements**
 Potential areas for future improvement include:

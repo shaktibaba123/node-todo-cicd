@@ -1,19 +1,4 @@
 # node-todo-cicd
-
-Run these commands:
-
-
-`sudo apt install nodejs`
-
-
-`sudo apt install npm`
-
-
-`npm install`
-
-`node app.js`
-
-
 CI/CD Pipeline with Jenkins and Docker on AWS
 This project provides a complete example of a CI/CD pipeline for a web application using Jenkins and Docker on Amazon Web Services (AWS).
 
@@ -38,7 +23,7 @@ Create an Amazon ECS cluster to run your Docker containers.
 
 Create an AWS access key and secret access key for Jenkins to access your AWS resources.
 
-Configure Jenkins:
+**Configure Jenkins:**
 
 Install the required plugins.
 Configure Jenkins to use your AWS credentials.
@@ -47,17 +32,31 @@ Build and deploy your Docker container to Amazon ECS using the Jenkins pipeline.
 Usage
 To use the project, trigger a build in Jenkins to initiate the pipeline. The pipeline will build and test the Docker image, and then deploy it to Amazon ECS.
 
+Run these commands:
+
+
+`sudo apt install nodejs`
+
+
+`sudo apt install npm`
+
+
+`npm install`
+
+`node app.js`
+
 You can monitor the pipeline's progress in the Jenkins console, and view the deployed application on the public IP address of your Amazon ECS cluster.
 
-Troubleshooting
+**Troubleshooting**
 If you encounter any issues during setup or deployment, check the Jenkins console for error messages, and consult the official documentation for the tools and technologies used in the project.
 
-Future Improvements
+**Future Improvements**
 Potential areas for future improvement include:
 
 Adding automated testing to the pipeline.
 Integrating additional AWS services, such as Amazon S3 for storage or AWS Lambda for serverless computing.
 Implementing more advanced deployment strategies, such as blue/green deployments or canary releases.
+
 **Contributors**
 Shakti Anand Jha 
 
